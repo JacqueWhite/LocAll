@@ -9,7 +9,7 @@ For places to eat, to play, and to drink, choose LocALL. We give you the best re
 - Jacque White (back-end)
 
 ## GitHub Demos
-- [Click here to see our website in action.](https://ijlee2.github.io/LocAll/)
+- [Click here to see our website in action.](https://jacquewhite.github.io/LocAll/)
 - [Click here to see creating databases in action.](https://ijlee2.github.io/LocAll/admin/create_databases_nofirebase.html)
 - [Click here to see making recommendations in action.](https://ijlee2.github.io/LocAll/admin/display_recommendations.html)
 - [Click here to see authenticating users in action.](https://ijlee2.github.io/LocAll/admin/authenticate_users.html)
