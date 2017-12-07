@@ -211,17 +211,17 @@ function displayRecommendations(eventNames) {
                     <div class="listItem food">
                         <div class="restaurantImage">
                             <p>${r.eat.name}</p>
-                            <div class="place-img"><div style="background: url(${r.eat.image}); background-size: 100%; height:50px; width:50px;"></div></div>
+                            <div class="place-img"><div style="background: url(${r.eat.image}); background-size: 100%; height:50px; width:50px; margin: 0 auto 0 auto;"></div></div>
                             <p>Rating: ${displayRating(r.eat)}</p>
                         </div>
                         <div class="columnTwo">
                             <p>${r.play.name}</p>
-                            <div class="place-img"><div style="background: url(${r.play.image}); background-size: 100%; height:50px; width:50px;"></div></div>
+                            <div class="place-img"><div style="background: url(${r.play.image}); background-size: 100%; height:50px; width:50px; margin: 0 auto 0 auto;"></div></div>
                             <p>Rating: ${displayRating(r.play)}</p>
                         </div>
                         <div class="item restaurantAddress">
                             <p>${r.drink.name}</p>
-                            <div class="place-img"><div style="background: url(${r.drink.image}); background-size: 100%; height:50px; width:50px;"></div></div>
+                            <div class="place-img"><div style="background: url(${r.drink.image}); background-size: 100%; height:50px; width:50px; margin: 0 auto 0 auto;"></div></div>
                             <p>Rating: ${displayRating(r.drink)}</p>
                         </div>
                     </div>

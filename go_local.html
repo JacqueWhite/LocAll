@@ -53,17 +53,17 @@
         </div>
 
         <!-- Go Local! Page -->
-        <div class="content page" id="page2">
-            <div class="row" style="display: block;">
+        <div class="content page" id="page2" style="text-align: center; position: relative;">
+            <div class="" style="display: block;">
                     <div class="instructions">
                         <h5 style="display: inline-flex;" >Pick a place to eat, play, and drink for the best options in your area:</h5>
                         <p style="font-style: italic; font-weight: 100; font-size: 12px;">More options coming soon!</p>
                     </div>
             </div>
 
-            <div class="row locall_flex_container">
-                <div class="btn-group col-md-3" id="events_eat">
-                    <button type="button" class="btn btn-primary dropdown-toggle button_events" id="button_eat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eat</button>
+            <div class="row" style="align-items: center; display: inline-flex; margin: 0;">
+                <div class="btn-group" id="events_eat">
+                    <button type="button" class="btn btn-orange dropdown-toggle button_events" id="button_eat" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Eat</button>
                     <div class="dropdown-menu dropdown-menu-right locall_menu_events">
                         <button class="dropdown-item" type="button">Asian</button>
                         <button class="dropdown-item" type="button">BBQ</button>
@@ -73,8 +73,8 @@
                     </div>
                 </div>
 
-                <div class="btn-group col-md-3" id="events_play">
-                    <button type="button" class="btn btn-primary dropdown-toggle button_events" id="button_play" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Play</button>
+                <div class="btn-group" id="events_play">
+                    <button type="button" class="btn btn-light-orange dropdown-toggle button_events" id="button_play" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Play</button>
                     <div class="dropdown-menu dropdown-menu-right locall_menu_events">
                         <button class="dropdown-item" type="button">Bowl</button>
                         <button class="dropdown-item" type="button">Hike</button>
@@ -84,8 +84,8 @@
                     </div>
                 </div>
 
-                <div class="btn-group col-md-3" id="events_drink">
-                    <button type="button" class="btn btn-primary dropdown-toggle button_events" id="button_drink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drink</button>
+                <div class="btn-group" id="events_drink">
+                    <button type="button" class="btn btn-navy dropdown-toggle button_events" id="button_drink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drink</button>
                     <div class="dropdown-menu dropdown-menu-right locall_menu_events">
                         <button class="dropdown-item" type="button">Bar</button>
                         <button class="dropdown-item" type="button">Brewery</button>
@@ -95,8 +95,8 @@
                     </div>
                 </div>
 
-                <div class="btn-group col-md-3" id="events_location">
-                    <button type="button" class="btn btn-warning dropdown-toggle button_events" id="button_location" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</button>
+                <div class="btn-group" id="events_location">
+                    <button type="button" class="btn btn-grey dropdown-toggle button_events" id="button_location" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</button>
                     <div class="dropdown-menu dropdown-menu-right locall_menu_events">
                         <button class="dropdown-item" type="button">Central</button>
                         <button class="dropdown-item" type="button">North</button>
@@ -108,15 +108,16 @@
             </div>
 
             <div class="containerPage2">
-                <div id="recommendations"></div>
-                <div>
+                <div style="margin: 0 auto 0 auto">
                     <div id="map"></div>
                 </div>
+                <div id="recommendations"></div>
             </div>
         </div>
         
         <!-- Custom JavaScript -->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5UBuB1NoQsps2oc6EdyNhrLGbYY_FZMQ&libraries=places&callback=displayMap" async defer></script>
+
         <script src="assets/js/app.js"></script>
     </body>
 </html>
